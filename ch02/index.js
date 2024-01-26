@@ -24,3 +24,8 @@ return (value - 32) / 1.8;
 function calFahrenheit(value){
 return value * 1.8 + 32;
 }
+
+function clearFunction(){
+    far.value = "";
+    cel.value = "";
+}
